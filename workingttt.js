@@ -122,7 +122,7 @@ function human_input(text) {
 	if (won == true || chance == 10) {
 		setTimeout(finish, 1000);
 	} else {
-		setTimeout(comp, 1000)
+		setTimeout(comp, 500)
 	}
 }
 
