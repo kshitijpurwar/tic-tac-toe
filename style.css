@@ -1,0 +1,117 @@
+body{
+
+  background:         linear-gradient(90deg, #B993D6 10%, #8CA6DB 90%); /* W3C */          
+}
+
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+  
+}
+
+
+div #choice{
+	padding:8px;
+}
+
+div#main {
+
+	margin-top: 20px;
+	margin: auto;
+	position: relative;
+	width:1000px;
+	height: 650px;
+	border: 1px solid #6892BA;
+	border-radius: 20px;
+    } 
+.ui-dialog-titlebar{
+	font-size: 20px;
+	border: 2px solid white;
+	text-align: center;
+	  background:linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* W3C */
+}    
+.ui-dialog {
+
+  background: -webkit-linear-gradient(90deg, #085078 10%, #85D8CE 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #085078 10%, #85D8CE 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #085078 10%, #85D8CE 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #085078 10%, #85D8CE 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #085078 10%, #85D8CE 90%); /* W3C */
+        
+  
+        
+}   
+ 
+#circle {
+	bottom:75px;
+	left: 50px;
+	position: absolute;
+}
+#cross{
+	bottom:75px;
+	right: 50px;
+	left: auto;
+	position: absolute;
+	
+}
+table {
+	position: absolute;
+	top:50px;
+	width: 525px;
+	height: 525px;
+	left:250px;
+}
+td{
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	color: #2F74D3;
+}
+#winners{
+	color: #F12CD8;
+}
+.opponent{
+	color:#09203F;
+}
+.options {
+	width: 95px;
+	height: 95px;
+
+} 
+
+button{
+	border-radius: 8px;
+	padding: 5px;
+	
+	color: white;
+	background-color: #2CACD6;
+	border: 4px solid #08154C;
+}
+button:hover{
+	color: #19196D;
+	background-color: #7276C7;
+	border: 4px solid white ;
+
+
+}
+
+.b {
+
+	border-bottom: 5px solid #AA51D3;
+}
+.l {
+	border-right: 5px solid #9E3EE8;
+}
+#gameover {
+	position: relative;
+}
+ #pg {
+font-size: 28px ;	
+width:300px;
+position: absolute;
+top :71px;
+left:50px;
+
+}
+
+
+ 
