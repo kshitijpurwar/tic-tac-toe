@@ -132,13 +132,11 @@ function comp() { //computer's response
 	ttt[d] = dcomp;
 	$(cells[d]).addClass('opponent');
 	cells[d].removeEventListener('click', pointer);
-
+	chance++;
 	won = winCheck(ttt);
 	if (won || chance == 10) {
 		setTimeout(finish, 500);
 	}
-	chance++;
-
 }
 
 
