@@ -158,7 +158,7 @@ function selector(eventObj) { // controls the selector dialog box operations
 			c = '<i class="fa fa-times fa-5x "></i> ';
 			h = '<i class="fa fa-circle-o fa-5x "></i>';
 			break;
-		case 'choice':
+		default:
 			h = '<i class="fa fa-times fa-5x "></i> ';
 			c = '<i class="fa fa-circle-o fa-5x "></i>';
 			human = 'X';
